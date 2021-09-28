@@ -4,15 +4,14 @@
 
 h1 {
   font-family: Trebuchet MS;
-  color: black;
   text-align: center;
   font-size: 50px;
+  color: black;
 }
 
 body {
   background-image: url("background.jpg");
   background-color: gray;
-
 }
 
 p {
@@ -31,12 +30,12 @@ p {
 
 section {
   border: 1px solid black;
-  background-color: #00FF99;
   width: 100%;
   font-family: Times new Roman;
-  color: black;
   position: relative;
   overflow: auto;
+  color: black;
+  background-color: lightskyblue;
 }
 
 #chicken {
@@ -79,9 +78,9 @@ section {
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
-  background-color: peachpuff;
-  color: black;
   padding: 5px;
+  color: black;
+  background-color: peachpuff;
 }
 
 .row {
@@ -129,11 +128,10 @@ section {
   .col-lg-12 {
     width: 100%;
   }
-
 }
 
 /* Tablet view */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991.9px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
@@ -176,7 +174,7 @@ section {
 }
 
 /* Mobile view */
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
   float: left;
   }
